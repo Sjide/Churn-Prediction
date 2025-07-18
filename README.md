@@ -11,10 +11,14 @@ A fair hypothesis is that price changes affect customer churn. Therefore, it is 
 
 
 Project Objectives:
+
 How to investigate whether price sensitivity is the most influential factor for a 
 customer churning.
+
 To Predict Customers likely to churn based on historical data. 
+
 Improve Customer Retention by implementing proactive and personalised interventions to reduce churn.
+
 Strengthen Customer relationships to sustain business growth.
 
 
@@ -73,34 +77,55 @@ client_data.csv
 
 
 Exploratory Data Analysis
+
 Key findings:
+
  About 9.72% of customers changed providers.
+ 
  Numeric variables on consumption are highly skewed.
+ 
  Changes in prices do not affect customer churn.
 
 
 
 Feature Engineering
+
 Created tenure groups to categorise customers by their duration with PowerCo.
+
 Irrelevant or multicollinear features such as num_years_antig and forecast_cons_year were dropped
+
 Categorical variables were encoded, and synthetic samples were generated using SMOTE-ENN for class balance
 
+
 Machine Learning Model
+
 Logistic Regression
+
 Decision Tree
+
 Random Forest
+
 Precision: 92.3076923076923%
+
 Accuracy: 90.08762322015335%
+
 Recall: 3.2171581769436997%
 
+
 Recommendations
+
 Based on insights from the analysis:
+
 Develop Targeted retention strategies that focuses on at- risk customers based on model prediction,
 Monitoring the effectiveness of the discount towards reducing churn and optimising retention.
+
 Optimise Marketing Spend by allocating  resources to retention efforts with the highest impact.
+
 Continuous Monitoring  regularly to evaluate and update the model to maintain effectiveness.
 
+
 Conclusion
+
  This project provides a robust, data - driven solution for mitigating customer churn at PowerCo. It combines advanced analytics and machine learning to proffer actionable insights and effective strategies to improve customer retention and strengthen PowerCo market position. 
 
 
