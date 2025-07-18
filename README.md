@@ -20,6 +20,7 @@ Strengthen Customer relationships to sustain business growth.
 
 Data Description
 client_data.csv 
+
 ● id = client company identifier 
 
 ● activity_new = category of the company’s activity
